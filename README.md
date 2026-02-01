@@ -1,6 +1,6 @@
 # Revisiting Sharpness-Aware Minimization: A More Faithful and Effective Implementation
 
-This is the official code for our paper **"Revisiting Sharpness-Aware Minimization: A More Faithful and Effective Implementation
+This is the official code for our ICLR 2026 paper **"Revisiting Sharpness-Aware Minimization: A More Faithful and Effective Implementation
 ."**
 
 ## Getting Started
@@ -26,4 +26,5 @@ python train.py --model='resnet18' --datasets='cifar100' --rho=0.15 --alpha=1.0
 ---
 For XSAM:
 python train.py --model='resnet18' --datasets='cifar100' --rho=0.15 --rho_max=0.3 --is_dynamic
+
 ```
