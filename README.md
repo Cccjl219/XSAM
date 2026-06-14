@@ -32,10 +32,11 @@ python train.py --model='resnet18' --datasets='cifar100' --rho=0.15 --rho_max=0.
 If you find this work useful, please consider citing:
 ```bibtex
 @inproceedings{chen2026revisiting,
-  author    = {Jianlong, Chen and Zhiming, Zhou},
-  title     = {Revisiting Sharpness-Aware Minimization: A More Faithful and Effective Implementation},
-  booktitle = {ICLR},
-  year      = {2026},
+  title={Revisiting Sharpness-Aware Minimization: A More Faithful and Effective Implementation},
+  author={Jianlong Chen and Zhiming Zhou},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=qTRqmMOOrH}
 }
 ```
 
